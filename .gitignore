@@ -1,0 +1,5 @@
+.DS_Store
+KeyboardCleaner.app/
+build/
+*.xcuserdata
+/.build/
