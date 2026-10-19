@@ -25,7 +25,9 @@ Wiping your keyboard while the Mac is awake always ends badly: random keystrokes
 
 ## Getting started
 
-**Requirements**: macOS 13+ and Xcode Command Line Tools (`xcode-select --install`).
+**Option A · Download** (Apple Silicon): grab the latest `KeyboardCleaner-x.y.z-arm64.dmg` from [Releases](https://github.com/zhxnix/KeyboardCleaner/releases), open it, drag **KeyboardCleaner** into the **Applications** folder. On first launch, right-click the app → **Open** (the app is ad-hoc signed, so Gatekeeper asks once).
+
+**Option B · Build from source** — requires macOS 13+ and Xcode Command Line Tools (`xcode-select --install`):
 
 ```bash
 git clone https://github.com/zhxnix/KeyboardCleaner.git

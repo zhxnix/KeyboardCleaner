@@ -25,7 +25,9 @@ Mac 开着的时候擦键盘，总会误触：乱开应用、误删文件、把�
 
 ## 快速上手
 
-**环境要求**：macOS 13+，Xcode 命令行工具（`xcode-select --install`）。
+**方式一 · 直接下载**（Apple Silicon）：从 [Releases](https://github.com/zhxnix/KeyboardCleaner/releases) 下载最新的 `KeyboardCleaner-x.y.z-arm64.dmg`，打开后把 **KeyboardCleaner** 拖入**应用程序**文件夹。首次启动请右键 → **打开**（app 为 ad-hoc 签名，Gatekeeper 会提示一次）。
+
+**方式二 · 源码构建**——需要 macOS 13+ 和 Xcode 命令行工具（`xcode-select --install`）：
 
 ```bash
 git clone https://github.com/zhxnix/KeyboardCleaner.git
