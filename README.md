@@ -72,7 +72,7 @@ KC_DEBUG=1 KeyboardCleaner ...           verbose logging to stderr
 
 - If a password field is focused, macOS enables **Secure Input** and keyboard events cannot be intercepted — the app detects this and asks you to click elsewhere first, instead of pretending to be locked.
 - Hardware actions (holding the power button, closing the lid) are below the reach of any event tap — which conveniently doubles as an escape hatch.
-- After rebuilding (`./build.sh`) the ad-hoc signature changes, so macOS may ask you to re-grant Accessibility.
+- `./build.sh` automatically signs with a local self-signed identity named **KeyboardCleaner Dev** when it exists in your login keychain — this keeps the code identity (and your Accessibility grant) stable across rebuilds. Otherwise it falls back to an ad-hoc signature, which changes on every build and requires re-granting Accessibility.
 
 ## How it works
 
